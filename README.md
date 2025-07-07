@@ -1,6 +1,6 @@
 <html>
     <p> 
-        <h1 id ="heading">Cadeadu</h1>
+        <h1 id ="heading">Cadeau</h1>
     </p> 
     <p>Hello, welcome to my page<br>
     <em>Habari zenu karibuni kwenye page yangu<br></em>
