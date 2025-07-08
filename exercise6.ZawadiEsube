@@ -1,0 +1,22 @@
+# a number between 1 and 100. 
+#player is told to guess a number and told it is too high or too low after the guess.
+#process continues until a number is guessed correct
+#pick a number and have a student fellow it
+
+
+#prompt the user to guess a number = number = int(input("Guess a number between 1 and 100: "))
+#guess wrong continue until the number is guessed correctly 
+number = int(input("Guess a number betwween 1 and 100: "))
+#the number to guess is 40
+#add a loop to continue until the number is guessed correctly
+while number != 40:
+    if number < 1 or number > 100:
+        print("Please pick a number between 1 and 100.")
+    elif number < 40:
+        print("Too low! Try again.")
+    elif number > 40:
+        print("Too high! Try again.")
+    
+    number = int(input("Guess again: ")) 
+
+
